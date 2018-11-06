@@ -28,12 +28,15 @@ class HalfTunesTests: XCTestCase {
     }
 
     override func tearDown() {
+        
+        sessionUnderTest = nil
+        super.tearDown()
   
     }
+    
+    
 
-    func testExample() {
- 
-    }
+  
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
