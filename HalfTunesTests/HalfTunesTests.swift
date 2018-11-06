@@ -45,7 +45,6 @@ class HalfTunesTests: XCTestCase {
         
         let dataTask = sessionUnderTest.dataTask(with: url!) { (data, response, error) in
             
-            
             if let error = error{
                 XCTFail(error.localizedDescription)
                 return
